@@ -1,29 +1,123 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: #f9f924;
-  margin-left: 15px;
-}
-
-
-header {
-  color: #167e98;
-  font-size: 20px;
+  background: #92d396;
+  margin: 0px;
+  font-family: Verdana
 }
 
 h1 {
-  color: green;
+  color: white;
   text-align: center;
+  height: 45px;
+  background:#92d396;
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: -10px;
 }
 
-#estrutura {
-  width: 70%;
-  color: #18189a;
-  text-align: justify;
-  font-size: 20px;
-  background: #0ae60a; 
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+h2 {
+  text-align: center;
+  color: rgb(58, 175, 35);
+  background-color: white;
+  font-weight: bold;
+  width: 420px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
+#vencedor {
+  width: 420px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #92d396;
+  margin: 0 auto;
+  justify-content: center;
+  border-radius: 5px;
+}
 
+#sJogadorDaVez, #nJogadas, #pont {
+  font-weight: bold;
+  color: red;
+}
+
+#tabuleiro {
+  height: 420px;
+  width: 420px;
+  border: solid 8px white;
+  border-radius: 40px;
+  background: #92d396;/*  #b3e864; */
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 23px;  
+  box-sizing: border-box;
+  }
+
+.casas {
+  height: 117px;
+  width: 117px;
+  background:white;/*  #ecd855; */
+  border: 6px solid black;
+  border-collapse: collapse;
+  border-radius: 12px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  float: left;
+  margin: 1px;
+  font-size: 64px;
+  font-weight: bold;
+  color: gold;
+  }
+
+.casas:hover {
+  background: #d2abf7;
+  transition: 0.8s;
+}
+
+.casas:active {
+  background: #d2abf7;
+  opacity: 0.8;
+}
+
+#velha {
+  width: 200px;
+  border-radius: 12px;
+  float: right;
+  margin-right: 100px;
+  margin-top:60px;
+}
+
+#div_button {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#button_resset {
+justify-content: center;
+  height: 70px;
+  width: 300px;
+  background: #92d396;
+  border: 5px solid white;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#button_resset:hover {
+  background:  #d2abf7;
+  transition: 0.7s;
+  cursor: pointer;
+}
+#button_resset:active {
+  cursor: pointer;
+  height: 53px;
+  width: 240px;
+  opacity: 0.8;
+}
 
