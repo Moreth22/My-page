@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #f9f924;
+  margin-left: 15px;
+}
+
+
+header {
+  color: #167e98;
+  font-size: 20px;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+#estrutura {
+  width: 70%;
+  color: #18189a;
+  text-align: justify;
+  font-size: 20px;
+  background: #0ae60a; 
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+
+
